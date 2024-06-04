@@ -1,0 +1,114 @@
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-06-04 17:44:52 [INFO]: Fin de la funcion obtenerPedidos
+2024-06-04 17:44:52 [INFO]: Response obtenerPedidos   [{"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"},{"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"},{"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"},{"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"},{"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"},{"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}]
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49090833","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}
+2024-06-04 17:44:52 [INFO]: Pedido 49090833  sin Folio generado 
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091264","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}
+2024-06-04 17:44:52 [INFO]: Pedido 49091264  sin Folio generado 
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091265","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}
+2024-06-04 17:44:52 [INFO]: Pedido 49091265  sin Folio generado 
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091266","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}
+2024-06-04 17:44:52 [INFO]: Pedido 49091266  sin Folio generado 
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091267","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}
+2024-06-04 17:44:52 [INFO]: Pedido 49091267  sin Folio generado 
+2024-06-04 17:44:52 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}
+2024-06-04 17:44:52 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object],[object Object]
+2024-06-04 17:44:52 [INFO]: Response extraerDataFacturamiento   {"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":19614,"Item":"650689-0","ID_Item":"107249871","facturado":true}
+2024-06-04 17:44:52 [INFO]: Pedido 49091702 con estado Facturado true
+2024-06-04 17:46:05 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-06-04 17:46:05 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-06-04 17:46:05 [INFO]: Fin de la funcion obtenerPedidos
+2024-06-04 17:46:05 [INFO]: Response obtenerPedidos   [{"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"},{"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"},{"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"},{"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"},{"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"},{"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}]
+2024-06-04 17:46:05 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49090833","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:46:06 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091264","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:46:06 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091265","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:46:06 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091266","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:46:06 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091267","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:46:06 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}
+2024-06-04 17:46:06 [INFO]: Fin la funcion obtenerDataFacturamiento : [object Object],[object Object]
+2024-06-04 17:46:06 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":19614,"Item":"650689-0","ID_Item":"107249871","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":660,"Item":"126180-5","ID_Item":"107249870","facturado":true}]
+2024-06-04 17:46:06 [INFO]: Pedido undefined  sin Folio generado 
+2024-06-04 17:55:10 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-06-04 17:55:10 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-06-04 17:55:10 [INFO]: Fin de la funcion obtenerPedidos
+2024-06-04 17:55:10 [INFO]: Response obtenerPedidos   [{"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"},{"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"},{"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"},{"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"},{"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"},{"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}]
+2024-06-04 17:55:10 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"}
+2024-06-04 17:55:10 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:10 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49090833","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:10 [INFO]: Pedido 49090833  sin Folio generado 
+2024-06-04 17:55:10 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"}
+2024-06-04 17:55:10 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:10 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091264","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:10 [INFO]: Pedido 49091264  sin Folio generado 
+2024-06-04 17:55:10 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"}
+2024-06-04 17:55:11 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:11 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091265","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:11 [INFO]: Pedido 49091265  sin Folio generado 
+2024-06-04 17:55:11 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"}
+2024-06-04 17:55:11 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:11 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091266","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:11 [INFO]: Pedido 49091266  sin Folio generado 
+2024-06-04 17:55:11 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"}
+2024-06-04 17:55:11 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:11 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091267","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:11 [INFO]: Pedido 49091267  sin Folio generado 
+2024-06-04 17:55:11 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}
+2024-06-04 17:55:11 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:11 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":660,"Item":"126180-5","ID_Item":"107249870","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":19614,"Item":"650689-0","ID_Item":"107249871","facturado":true}]
+2024-06-04 17:55:11 [INFO]: Pedido 49091702 con estado Facturado true
+2024-06-04 17:55:11 [INFO]: Pedido 49091702 con estado Facturado true
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-06-04 17:55:34 [INFO]: Fin de la funcion obtenerPedidos
+2024-06-04 17:55:34 [INFO]: Response obtenerPedidos   [{"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"},{"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"},{"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"},{"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"},{"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"},{"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}]
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120487,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49090833"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49090833","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:34 [INFO]: Pedido 49090833  sin Folio generado 
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120492,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091264"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091264","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:34 [INFO]: Pedido 49091264  sin Folio generado 
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120493,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091265"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091265","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:34 [INFO]: Pedido 49091265  sin Folio generado 
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120494,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091266"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091266","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:34 [INFO]: Pedido 49091266  sin Folio generado 
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120495,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091267"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76279534-5","FolioExterno":"49091267","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-06-04 17:55:34 [INFO]: Pedido 49091267  sin Folio generado 
+2024-06-04 17:55:34 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":120619,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"49091702"}
+2024-06-04 17:55:34 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":660,"Item":"126180-5","ID_Item":"107249870","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":19614,"Item":"650689-0","ID_Item":"107249871","facturado":true}]
+2024-06-04 17:55:34 [INFO]: Pedido 49091702 con estado Facturado true
+2024-06-04 17:55:34 [INFO]: Pedido 49091702 con estado Facturado true
