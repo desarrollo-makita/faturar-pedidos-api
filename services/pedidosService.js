@@ -91,7 +91,7 @@ async function facturarPedidos(item){
             emissao: fechaFormateada, //fecha de emision
             totalNota: item.Subtotal, //monto neto
             totalIpi: item.ImpuestoIngreso, //monto IVA
-            url_nf:item.URL, // link de la imagen
+            urlNf:item.URL, // link de la imagen
               itens: [
                 {
                     pedido: item.FolioExterno, //número del pedido (orden)
