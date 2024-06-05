@@ -99,7 +99,7 @@ async function facturarPedidos(item){
                     peca:item.Item , //referencia del repuesto
                     quantidade:item.Cantidad, //cantidad
                     preco: item.Precio, //precio
-                    pecaPedida: item.ID_Item //confirmacion del repuesto que se va a enviar
+                    pecaPedida: item.Item//confirmacion del repuesto que se va a enviar
                 }
               ]
             }
