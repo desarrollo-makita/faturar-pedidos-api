@@ -112,3 +112,207 @@
 2024-06-04 17:55:34 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":660,"Item":"126180-5","ID_Item":"107249870","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":18967,"Folio":-18967,"Fecha":"2024-05-31T00:00:00.000Z","Entidad":"76279534-5","FolioExterno":"49091702","URL":"http://makita1511.acepta.com/v01/45034EEA35989E3ECDCFE6F6902D54A607DD1D0C?k=e2cc8b8e7ce2b288174258d5597087ad","Subtotal":20274,"ImpuestoIngreso":3852,"Cantidad":1,"Precio":19614,"Item":"650689-0","ID_Item":"107249871","facturado":true}]
 2024-06-04 17:55:34 [INFO]: Pedido 49091702 con estado Facturado true
 2024-06-04 17:55:34 [INFO]: Pedido 49091702 con estado Facturado true
+2024-09-27 12:33:27 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-27 12:33:27 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-27 12:33:27 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-27 12:33:27 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-27 12:33:27 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-27 12:33:28 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-27 12:33:28 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"77116434-K","FolioExterno":"53045390","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-09-27 12:33:28 [INFO]: Pedido 53045390  sin Folio generado 
+2024-09-27 12:33:28 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-27 12:33:28 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-27 12:33:28 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"77116434-K","FolioExterno":"53151192","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-09-27 12:33:28 [INFO]: Pedido 53151192  sin Folio generado 
+2024-09-27 12:33:28 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-27 12:33:29 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-27 12:33:29 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"15688587-8","FolioExterno":"53227416","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-09-27 12:33:29 [INFO]: Pedido 53227416  sin Folio generado 
+2024-09-27 12:33:29 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-27 12:33:29 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-27 12:33:29 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":null,"Correlativo":null,"Folio":null,"Fecha":null,"Entidad":"76775137-0","FolioExterno":"53227417","URL":null,"Subtotal":null,"ImpuestoIngreso":null,"Cantidad":null,"Precio":null,"Item":null,"ID_Item":null,"facturado":null}]
+2024-09-27 12:33:29 [INFO]: Pedido 53227417  sin Folio generado 
+2024-09-27 12:33:29 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}
+2024-09-27 12:33:30 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-27 12:33:30 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19509,"Folio":215579,"Fecha":"2024-09-23T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227425","URL":"http://makita2409.acepta.com/v01/9554926841043A7DAF7993A6AB717EA150B5CFF8?k=716ee29cbb850b1d027aa0861ec2ecfe\r","Subtotal":29650,"ImpuestoIngreso":5634,"Cantidad":1,"Precio":29650,"Item":"144473-8","ID_Item":"114063681","facturado":true}]
+2024-09-27 12:33:30 [INFO]: Pedido 53227425 con estado Facturado true
+2024-09-30 09:24:33 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-30 09:24:33 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-30 09:24:33 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-30 09:24:33 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-30 09:24:33 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-30 09:24:44 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:24:44 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19524,"Folio":215830,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53045390","URL":"http://makita2409.acepta.com/v01/27AA5288AB4C033976BDCC279FDDA57BA2A7CDC6?k=5ab7c75850a7092a72b95eaf5750cf0d\r","Subtotal":37090,"ImpuestoIngreso":7047,"Cantidad":1,"Precio":34986,"Item":"515433-1","ID_Item":"113756956","facturado":null}]
+2024-09-30 09:24:44 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:44 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:45 [INFO]: Response responseFacturamiento   {"faturamento":23475021,"pedidos":["53045390"]}
+2024-09-30 09:24:45 [INFO]: Pedido "53045390" facturado correctamente , facturamiento telecontrol 23475021
+2024-09-30 09:24:45 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:24:45 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:24:45 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-30 09:24:45 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:24:45 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19525,"Folio":215831,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53151192","URL":"http://makita2409.acepta.com/v01/69FE475D8D683BF14EB757D641F70C1F0E5260A1?k=9a66cbb05d07e375c1741c206f5180f8\r","Subtotal":7865,"ImpuestoIngreso":1494,"Cantidad":1,"Precio":7865,"Item":"763238-5","ID_Item":"113931012","facturado":null}]
+2024-09-30 09:24:45 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:45 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:46 [INFO]: Response responseFacturamiento   {"faturamento":23475022,"pedidos":["53151192"]}
+2024-09-30 09:24:46 [INFO]: Pedido "53151192" facturado correctamente , facturamiento telecontrol 23475022
+2024-09-30 09:24:46 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:24:46 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:24:46 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-30 09:24:47 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:24:47 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19522,"Folio":215820,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"15688587-8","FolioExterno":"53227416","URL":"http://makita2409.acepta.com/v01/E236F4F69D57DC9B73E429AEE9E1872A5ED9EF30?k=f203587713013f62878cb9e4c7091045\r","Subtotal":13187,"ImpuestoIngreso":2506,"Cantidad":1,"Precio":13187,"Item":"650734-1","ID_Item":"114063677","facturado":null}]
+2024-09-30 09:24:47 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:47 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:48 [INFO]: Response responseFacturamiento   {"faturamento":23475023,"pedidos":["53227416"]}
+2024-09-30 09:24:48 [INFO]: Pedido "53227416" facturado correctamente , facturamiento telecontrol 23475023
+2024-09-30 09:24:48 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:24:48 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:24:48 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-30 09:24:48 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:24:48 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":22235,"Item":"510163-9","ID_Item":"114063679","facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":3360,"Item":"226589-2","ID_Item":"114063678","facturado":null}]
+2024-09-30 09:24:48 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:48 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:49 [INFO]: Response responseFacturamiento   {"faturamento":23475024,"pedidos":["53227417"]}
+2024-09-30 09:24:49 [INFO]: Pedido "53227417" facturado correctamente , facturamiento telecontrol 23475024
+2024-09-30 09:24:49 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:24:49 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:24:49 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:49 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:49 [INFO]: Response responseFacturamiento   {"faturamento":23475024,"pedidos":["53227417"]}
+2024-09-30 09:24:49 [INFO]: Pedido "53227417" facturado correctamente , facturamiento telecontrol 23475024
+2024-09-30 09:24:49 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:24:49 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:24:49 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"}
+2024-09-30 09:24:50 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:24:50 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":10780,"Item":"327668-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":2201,"Item":"213912-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":4899,"Item":"213911-2","ID_Item":"114063680","facturado":null}]
+2024-09-30 09:24:50 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:24:50 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:24:50 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 09:24:50 [ERROR]: Error al procesar data de facturamiento :  Pedido Item não enviado
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-30 09:59:07 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-30 09:59:07 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-30 09:59:07 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:59:07 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19524,"Folio":215830,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53045390","URL":"http://makita2409.acepta.com/v01/27AA5288AB4C033976BDCC279FDDA57BA2A7CDC6?k=5ab7c75850a7092a72b95eaf5750cf0d\r","Subtotal":37090,"ImpuestoIngreso":7047,"Cantidad":1,"Precio":34986,"Item":"515433-1","ID_Item":"113756956","facturado":true}]
+2024-09-30 09:59:07 [INFO]: Pedido 53045390 con estado Facturado true
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-30 09:59:07 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:59:07 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19525,"Folio":215831,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53151192","URL":"http://makita2409.acepta.com/v01/69FE475D8D683BF14EB757D641F70C1F0E5260A1?k=9a66cbb05d07e375c1741c206f5180f8\r","Subtotal":7865,"ImpuestoIngreso":1494,"Cantidad":1,"Precio":7865,"Item":"763238-5","ID_Item":"113931012","facturado":true}]
+2024-09-30 09:59:07 [INFO]: Pedido 53151192 con estado Facturado true
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-30 09:59:07 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:59:07 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19522,"Folio":215820,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"15688587-8","FolioExterno":"53227416","URL":"http://makita2409.acepta.com/v01/E236F4F69D57DC9B73E429AEE9E1872A5ED9EF30?k=f203587713013f62878cb9e4c7091045\r","Subtotal":13187,"ImpuestoIngreso":2506,"Cantidad":1,"Precio":13187,"Item":"650734-1","ID_Item":"114063677","facturado":true}]
+2024-09-30 09:59:07 [INFO]: Pedido 53227416 con estado Facturado true
+2024-09-30 09:59:07 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-30 09:59:08 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:59:08 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":22235,"Item":"510163-9","ID_Item":"114063679","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":3360,"Item":"226589-2","ID_Item":"114063678","facturado":true}]
+2024-09-30 09:59:08 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 09:59:08 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 09:59:08 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"}
+2024-09-30 09:59:08 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 09:59:08 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":4899,"Item":"213911-2","ID_Item":"114063680","facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":2201,"Item":"213912-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":10780,"Item":"327668-0","ID_Item":null,"facturado":null}]
+2024-09-30 09:59:08 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:59:08 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:59:08 [INFO]: Response responseFacturamiento   {"faturamento":23475110,"pedidos":["53227421"]}
+2024-09-30 09:59:08 [INFO]: Pedido "53227421" facturado correctamente , facturamiento telecontrol 23475110
+2024-09-30 09:59:08 [INFO]: Iniciamos la funcion updateFacturacionPedido
+2024-09-30 09:59:08 [INFO]: Fin la funcion updateFacturacionPedido
+2024-09-30 09:59:08 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 09:59:08 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 09:59:09 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 09:59:09 [ERROR]: Error al procesar data de facturamiento :  Pedido Item não enviado
+2024-09-30 10:00:08 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-30 10:00:08 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-30 10:00:08 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-30 10:00:08 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-30 10:00:08 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-30 10:00:08 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:00:08 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19524,"Folio":215830,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53045390","URL":"http://makita2409.acepta.com/v01/27AA5288AB4C033976BDCC279FDDA57BA2A7CDC6?k=5ab7c75850a7092a72b95eaf5750cf0d\r","Subtotal":37090,"ImpuestoIngreso":7047,"Cantidad":1,"Precio":34986,"Item":"515433-1","ID_Item":"113756956","facturado":true}]
+2024-09-30 10:00:08 [INFO]: Pedido 53045390 con estado Facturado true
+2024-09-30 10:00:08 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-30 10:00:09 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:00:09 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19525,"Folio":215831,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53151192","URL":"http://makita2409.acepta.com/v01/69FE475D8D683BF14EB757D641F70C1F0E5260A1?k=9a66cbb05d07e375c1741c206f5180f8\r","Subtotal":7865,"ImpuestoIngreso":1494,"Cantidad":1,"Precio":7865,"Item":"763238-5","ID_Item":"113931012","facturado":true}]
+2024-09-30 10:00:09 [INFO]: Pedido 53151192 con estado Facturado true
+2024-09-30 10:00:09 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-30 10:00:09 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:00:09 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19522,"Folio":215820,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"15688587-8","FolioExterno":"53227416","URL":"http://makita2409.acepta.com/v01/E236F4F69D57DC9B73E429AEE9E1872A5ED9EF30?k=f203587713013f62878cb9e4c7091045\r","Subtotal":13187,"ImpuestoIngreso":2506,"Cantidad":1,"Precio":13187,"Item":"650734-1","ID_Item":"114063677","facturado":true}]
+2024-09-30 10:00:09 [INFO]: Pedido 53227416 con estado Facturado true
+2024-09-30 10:00:09 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-30 10:00:09 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:00:09 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":3360,"Item":"226589-2","ID_Item":"114063678","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":22235,"Item":"510163-9","ID_Item":"114063679","facturado":true}]
+2024-09-30 10:00:09 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 10:00:09 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 10:00:09 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"}
+2024-09-30 10:00:09 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:00:09 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":10780,"Item":"327668-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":4899,"Item":"213911-2","ID_Item":"114063680","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":2201,"Item":"213912-0","ID_Item":null,"facturado":null}]
+2024-09-30 10:00:09 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 10:00:09 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 10:00:09 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 10:00:09 [ERROR]: Error al procesar data de facturamiento :  Pedido Item não enviado
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-30 10:04:54 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-30 10:04:54 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-30 10:04:54 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:04:54 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19524,"Folio":215830,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53045390","URL":"http://makita2409.acepta.com/v01/27AA5288AB4C033976BDCC279FDDA57BA2A7CDC6?k=5ab7c75850a7092a72b95eaf5750cf0d\r","Subtotal":37090,"ImpuestoIngreso":7047,"Cantidad":1,"Precio":34986,"Item":"515433-1","ID_Item":"113756956","facturado":true}]
+2024-09-30 10:04:54 [INFO]: Pedido 53045390 con estado Facturado true
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-30 10:04:54 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:04:54 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19525,"Folio":215831,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53151192","URL":"http://makita2409.acepta.com/v01/69FE475D8D683BF14EB757D641F70C1F0E5260A1?k=9a66cbb05d07e375c1741c206f5180f8\r","Subtotal":7865,"ImpuestoIngreso":1494,"Cantidad":1,"Precio":7865,"Item":"763238-5","ID_Item":"113931012","facturado":true}]
+2024-09-30 10:04:54 [INFO]: Pedido 53151192 con estado Facturado true
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-30 10:04:54 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:04:54 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19522,"Folio":215820,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"15688587-8","FolioExterno":"53227416","URL":"http://makita2409.acepta.com/v01/E236F4F69D57DC9B73E429AEE9E1872A5ED9EF30?k=f203587713013f62878cb9e4c7091045\r","Subtotal":13187,"ImpuestoIngreso":2506,"Cantidad":1,"Precio":13187,"Item":"650734-1","ID_Item":"114063677","facturado":true}]
+2024-09-30 10:04:54 [INFO]: Pedido 53227416 con estado Facturado true
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-30 10:04:54 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:04:54 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":22235,"Item":"510163-9","ID_Item":"114063679","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":3360,"Item":"226589-2","ID_Item":"114063678","facturado":true}]
+2024-09-30 10:04:54 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 10:04:54 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"}
+2024-09-30 10:04:54 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 10:04:54 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":10780,"Item":"327668-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":2201,"Item":"213912-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":4899,"Item":"213911-2","ID_Item":"114063680","facturado":true}]
+2024-09-30 10:04:54 [INFO]: Iniciamos la funcion facturarPedidos
+2024-09-30 10:04:54 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 10:04:55 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 10:04:55 [ERROR]: Error al procesar data de facturamiento :  Pedido Item não enviado
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion facturacionPedidos
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerPedidos
+2024-09-30 12:12:23 [INFO]: Fin de la funcion obtenerPedidos
+2024-09-30 12:12:23 [INFO]: Response obtenerPedidos   [{"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"},{"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"},{"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"},{"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"},{"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"},{"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}]
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122505,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53045390"}
+2024-09-30 12:12:23 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:23 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19524,"Folio":215830,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53045390","URL":"http://makita2409.acepta.com/v01/27AA5288AB4C033976BDCC279FDDA57BA2A7CDC6?k=5ab7c75850a7092a72b95eaf5750cf0d\r","Subtotal":37090,"ImpuestoIngreso":7047,"Cantidad":1,"Precio":34986,"Item":"515433-1","ID_Item":"113756956","facturado":true}]
+2024-09-30 12:12:23 [INFO]: Pedido 53045390 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122508,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53151192"}
+2024-09-30 12:12:23 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:23 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19525,"Folio":215831,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"77116434-K","FolioExterno":"53151192","URL":"http://makita2409.acepta.com/v01/69FE475D8D683BF14EB757D641F70C1F0E5260A1?k=9a66cbb05d07e375c1741c206f5180f8\r","Subtotal":7865,"ImpuestoIngreso":1494,"Cantidad":1,"Precio":7865,"Item":"763238-5","ID_Item":"113931012","facturado":true}]
+2024-09-30 12:12:23 [INFO]: Pedido 53151192 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122515,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227416"}
+2024-09-30 12:12:23 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:23 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19522,"Folio":215820,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"15688587-8","FolioExterno":"53227416","URL":"http://makita2409.acepta.com/v01/E236F4F69D57DC9B73E429AEE9E1872A5ED9EF30?k=f203587713013f62878cb9e4c7091045\r","Subtotal":13187,"ImpuestoIngreso":2506,"Cantidad":1,"Precio":13187,"Item":"650734-1","ID_Item":"114063677","facturado":true}]
+2024-09-30 12:12:23 [INFO]: Pedido 53227416 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122516,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227417"}
+2024-09-30 12:12:23 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:23 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":3360,"Item":"226589-2","ID_Item":"114063678","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19529,"Folio":215836,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227417","URL":"http://makita2409.acepta.com/v01/6820AEDD3E3BA092889AB0CC28C029ED4E284957?k=b05c24f68f8330d53834755941f52cb7\r","Subtotal":25595,"ImpuestoIngreso":4863,"Cantidad":1,"Precio":22235,"Item":"510163-9","ID_Item":"114063679","facturado":true}]
+2024-09-30 12:12:23 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Pedido 53227417 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122517,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227421"}
+2024-09-30 12:12:23 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:23 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":4899,"Item":"213911-2","ID_Item":"114063680","facturado":true},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":10780,"Item":"327668-0","ID_Item":null,"facturado":null},{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19514,"Folio":215778,"Fecha":"2024-09-27T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227421","URL":"http://makita2409.acepta.com/v01/7C7AD635F02ED47E1C440F9DC1812DE603E2E87D?k=c9792e07db27dd79fd0ffb4eb7b592ae\r","Subtotal":17880,"ImpuestoIngreso":3397,"Cantidad":1,"Precio":2201,"Item":"213912-0","ID_Item":null,"facturado":null}]
+2024-09-30 12:12:23 [INFO]: Pedido 53227421 con estado Facturado true
+2024-09-30 12:12:23 [INFO]: Iniciamos la función facturarPedidos
+2024-09-30 12:12:23 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 12:12:24 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 12:12:24 [INFO]: Response responseFacturamiento   {"success":false,"message":"Pedido Item não enviado"}
+2024-09-30 12:12:24 [INFO]: Iniciamos la función facturarPedidos
+2024-09-30 12:12:24 [INFO]: URL :  http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos
+2024-09-30 12:12:24 [ERROR]: Error al obtener data para facturamiento
+2024-09-30 12:12:24 [INFO]: Response responseFacturamiento   {"success":false,"message":"Pedido Item não enviado"}
+2024-09-30 12:12:24 [INFO]: Iniciamos la funcion obtenerDataFacturamiento   {"Correlativo":122518,"tipoDocumento":"NOTA DE VTA INTERNA","ID_Pedido":"53227425"}
+2024-09-30 12:12:25 [INFO]: Fin la funcion obtenerDataFacturamiento :
+2024-09-30 12:12:25 [INFO]: Response extraerDataFacturamiento   [{"TipoDocumento":"DTE-GUIA GARANTIA","Correlativo":19509,"Folio":215579,"Fecha":"2024-09-23T00:00:00.000Z","Entidad":"76775137-0","FolioExterno":"53227425","URL":"http://makita2409.acepta.com/v01/9554926841043A7DAF7993A6AB717EA150B5CFF8?k=716ee29cbb850b1d027aa0861ec2ecfe\r","Subtotal":29650,"ImpuestoIngreso":5634,"Cantidad":1,"Precio":29650,"Item":"144473-8","ID_Item":"114063681","facturado":true}]
+2024-09-30 12:12:25 [INFO]: Pedido 53227425 con estado Facturado true

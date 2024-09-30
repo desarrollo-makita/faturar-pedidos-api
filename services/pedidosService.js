@@ -79,24 +79,24 @@ async function obtenerDataFacturamiento(item) {
  */
 async function facturarPedidos(item) {
   try {
-    logger.info(`Iniciamos la funcion facturarPedidos`);
+    logger.info(`Iniciamos la función facturarPedidos`);
     const fechaFormateada = new Date(item.Fecha).toISOString().split("T")[0];
 
     const data = {
-      posto: item.Entidad, // servicio tecnico
-      notaFiscal: item.Correlativo, //número de la factura
-      emissao: fechaFormateada, //fecha de emision
-      totalNota: item.Subtotal, //monto neto
-      totalIpi: item.ImpuestoIngreso, //monto IVA
+      posto: item.Entidad, // servicio técnico
+      notaFiscal: item.Correlativo, // número de la factura
+      emissao: fechaFormateada, // fecha de emisión
+      totalNota: item.Subtotal, // monto neto
+      totalIpi: item.ImpuestoIngreso, // monto IVA
       urlNf: item.URL, // link de la imagen
       itens: [
         {
-          pedido: item.FolioExterno, //número del pedido (orden)
-          pedidoItem: item.ID_Item, //pedido item
-          peca: item.Item, //referencia del repuesto
-          quantidade: item.Cantidad, //cantidad
-          preco: item.Precio, //precio
-          pecaPedida: item.Item, //confirmacion del repuesto que se va a enviar
+          pedido: item.FolioExterno, // número del pedido (orden)
+          pedidoItem: item.ID_Item, // pedido item
+          peca: item.Item, // referencia del repuesto
+          quantidade: item.Cantidad, // cantidad
+          preco: item.Precio, // precio
+          pecaPedida: item.Item, // confirmación del repuesto que se va a enviar
         },
       ],
     };
@@ -114,23 +114,43 @@ async function facturarPedidos(item) {
       },
     });
 
-    return response.data;
+    // Verifica si la respuesta no fue un 200
+    if (response.status !== 200) {
+      logger.warn(
+        `Respuesta no exitosa para el item ${item.FolioExterno}: ${response.status} - ${response.statusText}`
+      );
+      // Puedes retornar algo específico aquí si deseas seguir con el flujo
+      return {
+        success: false,
+        message: `Error en la facturación para el item ${item.FolioExterno}`,
+        data: response.data,
+      };
+    }
+
+    return {
+      success: true,
+      data: response.data,
+    };
   } catch (error) {
     // Captura el error y maneja la excepción
+    let mensajeError;
 
     if (error.response && error.response.data) {
-      const mensajeError =
+      mensajeError =
         error.response.data.mensaje ||
         error.response.data.message ||
         "Error desconocido";
       logger.error("Error al obtener data para facturamiento", mensajeError);
-
-      // Lanza una excepción personalizada o devuelve una respuesta con el mensaje de error
-      throw new Error(mensajeError);
     } else {
-      // Si no hay datos en la respuesta, lanza el error original
-      throw error;
+      mensajeError = "Error en la conexión a la API";
+      logger.error("Error en la conexión a la API", error.message);
     }
+
+    // Devuelve un objeto con el estado de error
+    return {
+      success: false,
+      message: mensajeError,
+    };
   }
 }
 
