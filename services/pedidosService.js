@@ -115,7 +115,7 @@ async function facturarPedidos(item) {
     });
 
     // Verifica si la respuesta no fue un 200
-    if (response.status !== 200) {
+    if (response.status !== 200 && response.status !== 201) {
       logger.warn(
         `Respuesta no exitosa para el item ${item.FolioExterno}: ${response.status} - ${response.statusText}`
       );
