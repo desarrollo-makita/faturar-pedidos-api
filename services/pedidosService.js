@@ -101,6 +101,8 @@ async function facturarPedidos(item) {
       ],
     };
 
+    console.log("data : " , data);
+
     const url = `http://api2.telecontrol.com.br/posvenda-faturamento/faturamentos`;
 
     logger.info(`URL :  ${url}`);

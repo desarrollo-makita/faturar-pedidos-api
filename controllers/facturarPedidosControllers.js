@@ -51,12 +51,12 @@ async function facturacionPedidos(req, res) {
               responseFacturamiento
             )}`
           );
-          if (responseFacturamiento.faturamento) {
+          if (responseFacturamiento.data.faturamento) {
             logger.info(
               `Pedido ${JSON.stringify(
                 dataFactura.FolioExterno
               )} facturado correctamente , facturamiento telecontrol ${JSON.stringify(
-                responseFacturamiento.faturamento
+                responseFacturamiento.data.faturamento
               )}`
             );
             pedidosFacturados.push(dataFactura.FolioExterno);
