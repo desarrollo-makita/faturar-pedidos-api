@@ -51,7 +51,7 @@ async function facturacionPedidos(req, res) {
               responseFacturamiento
             )}`
           );
-          if (responseFacturamiento.data.faturamento) {
+          if (responseFacturamiento && responseFacturamiento.data && responseFacturamiento.data.faturamento) {
             logger.info(
               `Pedido ${JSON.stringify(
                 dataFactura.FolioExterno
