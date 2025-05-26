@@ -83,7 +83,7 @@ async function facturarPedidos(item) {
     const fechaFormateada = new Date(item.Fecha).toISOString().split("T")[0];
 
     const data = {
-      posto: item.Entidad, // servicio técnico
+       posto: item.Entidad.replace(/-/g, ""), // servicio técnico sin guion
       notaFiscal: item.Correlativo, // número de la factura
       emissao: fechaFormateada, // fecha de emisión
       totalNota: item.Subtotal, // monto neto
